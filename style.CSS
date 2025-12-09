@@ -29,7 +29,7 @@ body {
     padding:30px 0;
     display: flex;
 }
-@media (min-width:768px) {
+@media (min-width:768) {
     .wrapper {
         height:50rem;
         width: 25rem;
@@ -513,4 +513,5 @@ h2 {
 .black-backdrop.active {
     opacity: 1;
     visibility: visible;
+
 }
