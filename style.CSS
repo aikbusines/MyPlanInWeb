@@ -22,17 +22,21 @@ body {
 
  /* الخلفيه الجزء العلوي */
 .wrapper {
+
     position: relative;
-    height: 100vh;
+    min-height: 100svh;
     width: 100%;
     overflow:hidden;
     padding:30px 0;
     display: flex;
 }
-@media (max-width:768) {
+
+
+@media (max-width:768px) {
     .wrapper {
-        height:50rem;
-        width: 25rem;
+        height: auto;
+        width: 100%;
+        max-width: 25rem;
         border-radius: 40px;
         border: 10px solid #2e2e2e;
        
@@ -203,10 +207,10 @@ h2 {
     transition: all 0.3s;
 }
 
-.category:hover .options{
+/* .category:hover .options{
     opacity: 1;
     visibility: visible;
-}
+}*/
 .category .toggle-btn {
     width: 2rem;
     cursor: pointer;
@@ -513,6 +517,4 @@ h2 {
 .black-backdrop.active {
     opacity: 1;
     visibility: visible;
-
 }
-
